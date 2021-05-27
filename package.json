@@ -1,0 +1,25 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blmccavanagh/Team-Profile-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blmccavanagh/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/blmccavanagh/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.0"
+  }
+}
