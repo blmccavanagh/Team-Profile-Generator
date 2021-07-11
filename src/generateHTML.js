@@ -66,15 +66,16 @@ function generateHTML(data) {
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-        <link href="style.css" rel="stylesheet">
+        <link href="assets/style.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="assets/images/favicon.jpg">
         <title>Team Profile Generator</title>
     </head>
     
-    <body class="leading-normal tracking-normal mt-12">
+    <body class="leading-normal tracking-normal">
     
         <header>
     
-            <h1>
+            <h1 class="glow">
                 My Team
             </h1>
     
@@ -85,31 +86,31 @@ function generateHTML(data) {
                 ${card}
             </main>
 
-            <footer id="footer" class="handwriting shadow px-4 shadow-2xl"><span class="glow">Made by </span><span>B.</span>
+            <footer id="footer" class="handwriting shadow px-10 shadow-2xl"><span class="glow">Made by </span><span>B.</span>
                 <section class="grid grid-cols-4 lg:grid-cols-8 grid-rows-2 lg:grid-rows-1 gap-2">
                     <a href="https://blmccavanagh.github.io/Professional-Portfolio/"
                         alt="A styled personal website icon providing a hyperlink to Bridget McCavanagh's professional portfolio website."><img
-                            class="object-scale-down" src="images/icons/portfolio.png"></a>
+                            class="object-scale-down" src="assets/images/icons/portfolio.png"></a>
                     <a href="tel:+61-0466-265-845"
                         alt="A styled telephone Icon with a phone link to contact +61-466-265-845."><img
-                            class="object-scale-down" src="images/icons/phone.PNG"></a>
-                    <a href="mailto:b@justcallmeb.com" class="object-scale-down"><img src="images/icons/email.PNG"
+                            class="object-scale-down" src="assets/images/icons/phone.PNG"></a>
+                    <a href="mailto:b@justcallmeb.com" class="object-scale-down"><img src="assets/images/icons/email.PNG"
                             alt="A styled email icon providing a email link to b@justcallmeB.com"></a>
                     <a href="https://www.instagram.com/exolvoppt" target=_blank class="object-scale-down"><img
-                            src="images/icons/instagram.PNG"
+                            src="assets/images/icons/instagram.PNG"
                             alt="A styled Instagram.com icon providing a hyperlink to the website."></a>
                     <a href="https://twitter.com/blmccavanagh" class="object-scale-down"><img
-                            src="images/icons/twitter.PNG"
+                            src="assets/images/icons/twitter.PNG"
                             alt="A styled Twitter.com icon providing a hyperlink to the website."></a>
                     <a href="https://www.linkedin.com/in/blmccavanagh"
                         alt="A styled Linkedin.com icon providing a hyperlink to the website." class="object-scale-down"><img
-                            src="images/icons/linkedin.PNG"></a>
+                            src="assets/images/icons/linkedin.PNG"></a>
                     <a href="https://github.com/blmccavanagh" class="object-scale-down"><img
-                            src="images/icons/github.PNG"
+                            src="assets/images/icons/github.PNG"
                             alt="A styled GitHub.com icon providing a hyperlink to the user profile on the website."></a>
-                    <a href="download-items/resume.pdf" download="Bridget McCavanagh - Resume"
+                    <a href="assets/download-items/resume.pdf" download="Bridget McCavanagh - Resume"
                         alt="A styled document icon providing a hyperlink to a resume document download."><img
-                            class="object-scale-down" src="images/icons/resume.JPG"></a>
+                            class="object-scale-down" src="assets/images/icons/resume.JPG"></a>
                     <br>
                 </section>
             </footer>
