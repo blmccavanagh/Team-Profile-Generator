@@ -40,18 +40,12 @@ async function createTeamMember() {
             break;
 
         case 'Quit':
-        //     fs.readFile("./dist/index.html", 'utf8' , (err, data) => {
-        //         let data = '';
-        //         if ("index.html" == '') {
-                    
-        //         } else fs.writeFile("./dist/index.html", generateHTML(teamDataArray), (err) => {
-        //         if (err) {
-        //           console.error(err)
-        //           return
-        //         }
-        //         console.log('Success!');
-        //     });
-        // });
+            fs.writeFile("./dist/index.html", generateHTML(teamDataArray), (err) => {
+                if (err) {
+                    throw err;
+                }
+                console.log('Success!');
+            });
             break;
 
         default:
