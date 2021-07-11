@@ -45,7 +45,7 @@ function internCard(intern) {
     `
 }
 
-function createHTML(data) {
+function generateHTML(data) {
     let card = '';
 
     for (let i = 0; i < data.length; i++) {
@@ -117,22 +117,6 @@ function createHTML(data) {
     </body>
     
     </html>`
-}
-
-function generateHTML(path, data) {
-    fs.exists("./dist/index.html", function (exists) {
-        // fs.readFile("./dist/index.html", 'utf8', (err, data) => {
-        //     let data = '';
-        if (exists) {
-            fs.appendFile ("./dist/index.html")
-        } else fs.writeFile("./dist/index.html", createHTML(teamDataArray), (err) => {
-            if (err) {
-                console.error(err)
-                return
-            }
-            console.log('Success!');
-        });
-    });
 }
 
 module.exports = generateHTML;
