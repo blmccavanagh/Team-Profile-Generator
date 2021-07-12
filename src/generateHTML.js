@@ -7,7 +7,7 @@ function managerCard(manager) {
 
    <h5>${manager.getRole()}</h5>
     <p>ID: ${manager.getID()}</p>
-    <p>Email: ${manager.getEmail()}</p>
+    <a href="${manager.getEmail()}">Email: ${manager.getEmail()}</a>
     <p>Office Number: ${manager.getOfficeNumber()}</p>
     
     </div>
@@ -23,8 +23,8 @@ function engineerCard(engineer) {
 
    <h5>${engineer.getRole()}</h5>
     <p>ID: ${engineer.getID()}</p>
-    <p>Email: ${engineer.getEmail()}</p>
-    <p>GitHub: ${engineer.getGitHub()}</p>
+    <a href="${engineer.getEmail()}">Email: ${engineer.getEmail()}</a>
+    <a href="https://github.com/${engineer.getGitHub()}">GitHub: ${engineer.getGitHub()}</a>
     
     </div>
     `
@@ -38,7 +38,7 @@ function internCard(intern) {
 
    <h5>${intern.getRole()}</h5>
     <p>ID: ${intern.getID()}</p>
-    <p>Email: ${intern.getEmail()}</p>
+    <a href="${intern.getEmail()}">Email: ${intern.getEmail()}</a>
     <p>School: ${intern.getSchool()}</p>
     
     </div>
