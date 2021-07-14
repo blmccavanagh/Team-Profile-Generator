@@ -96,7 +96,7 @@ async function createManager() {
     );
     teamDataArray.push(newManager);
     console.log(managerData);
-    console.log(newManager);
+    // console.log(newManager);
 
     createTeamMember();
 };
